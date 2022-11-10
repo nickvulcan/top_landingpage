@@ -72,14 +72,16 @@ button {
 .hero {
     display: flex;
     justify-content:center;
-    padding-block: 150px;
+    padding-block: 100px;
 }
 
 .hero-left {
     width: 40%;
+    padding-right: 10px;
 }
 
 .hero-right {
+    padding-left: 10px;
     width: 40%;
 }
 
