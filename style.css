@@ -11,7 +11,6 @@ a {
     font-style: normal;
 }
 
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -19,20 +18,47 @@ button {
     font-size: 18px;
 }
 
-
-
 .dark-side-lobe {
     background-color: #1f2937;
-    /* border: solid 2px red; */
+    min-inline-size: 10%;
+    border: solid 2px red;
 }
 
 .darkbg {
+    border: solid 2px red;
+
     background-color: #1f2937;
 }
 
 .lightbg {
+    border: solid 2px red;
+
     background-color: #f9faf8;
 }
+
+.header {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.header-logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    border: solid 2px red;
+    text-align: left;
+
+}
+
+.header-link-container {
+    border: solid 2px red;
+
+    display: flex;
+    flex-direction: row;
+}
+
 
 .hero-title {
     font-size: 48px;
@@ -50,13 +76,6 @@ button {
     color: #e5e7eb;
     font-size: 18px;
 }
-
-.header-logo-text {
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: 900;
-}
-
 
 .action-time {
     background-color: #3882f6;
