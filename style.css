@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
 a {
     font-size: 18px;
     color: #e5e7eb;
@@ -8,37 +14,76 @@ a {
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
-.darkbgcolor {
+
+
+.dark-side-lobe {
+    background-color: #1f2937;
+    /* border: solid 2px red; */
+}
+
+.darkbg {
     background-color: #1f2937;
 }
 
-.hero-main-text {
+.lightbg {
+    background-color: #f9faf8;
+}
+
+.hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.hero-secondary-text {
+.hero-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-image {
+    background-color: #6d747d;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header-logo-text {
     color: #f9faf8;
     font-size: 24px;
-}
-
-.call-to-action {
-    background-color: #3882f6;
-}
-
-.info-header-text {
-    font-size: 36px;
     font-weight: 900;
+}
+
+
+.action-time {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.action-time.action-title {
+    font-size: 24px;
+}
+
+.action-time.action-text {
+    font-size: 18px;
+}
+
+.infotron {
     color: #1f2937;
 }
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-subtext {
+    font-size: 18px;
+}
+
 
 .quote {
     background-color: #e5e7eb;
@@ -48,4 +93,14 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+.quote.quote-person {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
